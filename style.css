@@ -1,0 +1,337 @@
+body {
+    font-family: sans-serif;
+}
+
+    
+}
+html{
+zoom: 100%; 
+}
+body{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    background: url(https://info.klr.com.ua/wp-content/uploads/2022/12/poland.jpg);
+    width: 100%;
+    
+}
+h2{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fbf8f8;
+}
+
+
+header{
+    position: relative;
+    height: 100px;
+    top: 70px;
+    width: 100%;
+    background:url(https://learn.logikaschool.com/uploads/student/2860276/67add269348a4.png);
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    position: absolute;
+    width: 50%;
+    left: 258px;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.nav-link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #fd1d1d;
+}
+
+
+.nav-link:first-child{
+    font-weight: 700;  
+    color: #fb0909;
+}
+
+
+.nav-link:hover:last-child{
+    color: #121111;
+}
+.nav-link:last-child{
+    font-weight: 700;  
+    color: #fb0909;
+}
+
+
+.nav-link:hover:first-child{
+    color: #060606;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+    color: #030303;
+    transition: 0.2s ease-in;
+}
+
+
+.logo{
+    position: absolute;
+    width: 13%;
+    left: 88px;
+    top: 0%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+
+.info{
+    position: relative;
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 50px;
+}
+.info-img{
+    position: absolute;
+    width: 30%;
+    left: 65%;
+    border-radius: 15px;
+    border:1px solid white;
+}
+.info-div{
+    position: absolute;
+    left: 5%;
+    width: 50%;
+    top:0px;
+}
+.info-div h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #f6f3f3;
+}
+.info-div h1:hover{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #f52c2c;
+}
+.info-div p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fcf9f9;
+    width: 80%;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    background: #faf9f6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #f82a2a;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    border:1px solid red;
+    border-radius: 15px;
+}
+.call-butt:hover{
+    background: #FFFFFF;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top:0;
+}
+.menu-div{
+    position: relative;
+    left: 88px;
+    margin: 10% 0%;
+    top:0px;
+}
+.menu-img{
+    width: 30%;
+   
+}
+.menu-info{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 0;
+   
+}
+.menu-info h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #f9f9f6;
+}
+.menu-text{
+    width: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #f6f2f2;
+}
+
+
+.sallary{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #f1efed;
+}
+.order{
+    background: #FFC700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2% 10%;
+   
+}
+.order:hover{
+    background: #FFFFFF;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+
+
+.sale{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 407px;
+    left: 0px;
+   
+}
+.sale-div{
+    display: flex;
+    justify-content: center;
+}
+.sale-img{
+    width: 190px;
+    height: 190px;
+    padding: 3% 5%;
+   
+}
+.about{
+    position: relative;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+}
+.about-div{
+    width: 100%;
+    height: 90%;
+    background-image: url(about.png);
+    background-size: cover;  
+}
+.about-div p{
+    position: absolute;
+    width: 100%;
+    height: 273px;
+    left: 87px;
+    top: 187px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+
+}
+iframe{
+    width: 80%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 425px;
+    left: 0px;
+    background: #b2b0a7;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #0b0b0b;
+}
+.footer-img{
+    width: 270px;
+    height: 370px;
+    margin-right: 3%;
+    position: absolute;
+    left:540px;
+    top:5%;
+}
+.logo-img{
+    position: absolute;
+    left: 135%;
+    top:45%;
+    width: 35%;
+}
+
+
+
+
